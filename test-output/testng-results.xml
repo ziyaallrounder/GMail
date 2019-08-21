@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="80286" started-at="2019-08-20T07:18:49Z" finished-at="2019-08-20T07:20:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="80286" started-at="2019-08-20T07:18:49Z" finished-at="2019-08-20T07:20:10Z">
+      <class name="scripts.SendMail">
+        <test-method status="PASS" signature="openAppln()[pri:0, instance:scripts.SendMail@6e3c1e69]" name="openAppln" is-config="true" duration-ms="8819" started-at="2019-08-20T00:18:49Z" finished-at="2019-08-20T00:18:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppln -->
+        <test-method status="PASS" signature="composeMailOne()[pri:0, instance:scripts.SendMail@6e3c1e69]" name="composeMailOne" duration-ms="69685" started-at="2019-08-20T00:18:58Z" finished-at="2019-08-20T00:20:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- composeMailOne -->
+        <test-method status="PASS" signature="closeAppln()[pri:0, instance:scripts.SendMail@6e3c1e69]" name="closeAppln" is-config="true" duration-ms="1751" started-at="2019-08-20T00:20:08Z" finished-at="2019-08-20T00:20:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAppln -->
+      </class> <!-- scripts.SendMail -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
